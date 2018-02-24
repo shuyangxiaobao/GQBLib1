@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'GQBLib1_Example' do
+  pod 'GQBLib1', :path => '../'
+
+  target 'GQBLib1_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
