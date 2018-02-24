@@ -1,0 +1,6 @@
+framework module Pods_GQBLib1_Example {
+  umbrella header "Pods-GQBLib1_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

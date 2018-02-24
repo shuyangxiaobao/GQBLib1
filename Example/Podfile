@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'GQBLib1_Example' do
-  pod 'GQBLib1', :path => '../'
+  pod 'GQBLib1', :path => '../GQBLib1.podspec'
 
   target 'GQBLib1_Tests' do
     inherit! :search_paths
